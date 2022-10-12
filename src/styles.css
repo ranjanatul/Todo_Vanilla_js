@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 12px 2px;
+  width: 80%;
+}
+.center {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.flex_center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo_form {
+  width: 90%;
+}
+
+input[type="text"] {
+  width: 75%;
+  outline: none;
+  border: 1px solid green;
+  border-radius: 3px;
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+}
+input[type="button"] {
+  width: 20%;
+  border: none;
+  background-color: green;
+  color: white;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+hr {
+  border-bottom: 3px solid red;
+  border-top: none;
+}
+.todo_display {
+  width: 100%;
+}
+.todo_display li {
+  list-style-type: none;
+}
+.todo_item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: -50px;
+  padding: 5px;
+}
+
+.todo_checked {
+  width: 13%;
+}
+.todo_item_desc {
+  border: none;
+  width: 70%;
+}
+.todo_item_action {
+  width: 10%;
+}

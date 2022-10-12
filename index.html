@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo App</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h2 class="center">To do list</h2>
+      <div class="flex_center">
+        <div class="todo_form">
+          <input
+            type="text"
+            placeholder="write to do item..."
+            id="todo_input"
+          />
+          <input type="button" value="Add" id="todo_submit" />
+          <hr />
+        </div>
+        <ul class="todo_display" id="todo_display"></ul>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
